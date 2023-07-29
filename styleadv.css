@@ -1,0 +1,89 @@
+body {
+  font-family: arial, sans-serif;
+  display: block;
+}
+nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+img {
+  width: 20%;
+  height: 10%;
+}
+#google-logo {
+  list-style-image: none;
+  display: inline-block;
+  width: 10%;
+  height: 70%;
+  margin: 10px;
+}
+.center {
+  display: block;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+#searchbar {
+  width: 50%;
+  height: 5%;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("https://www.w3schools.com/css/searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.nav-element {
+  background-color: none;
+  margin: 15px;
+  padding: 5px 5px 5px 5px;
+  width: 100px;
+  height: 20px;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.search-btn {
+  background-color: rgb(243, 243, 243);
+  margin: 15px;
+  padding: 5px 5px 5px 5px;
+  border: 0.5px solid lightgray;
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: solid;
+}
+
+#adv-title{
+  font: 20px arial,sans-serif;
+   color : red;
+  margin-left: 10px;
+}
+.adv-form-title{
+  font-weight: bold;
+  margin : 20px;
+
+}
+
+
+
+.adv-inpt {
+  width: 250px;
+  height: 30px;
+  padding: 12px 20px 12px 40px;
+
+}
+
