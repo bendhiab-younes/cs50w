@@ -1,2 +1,2 @@
-# cs50w
-a repo for cs50w projects
+# Harvard CS50w
+a repo for Harvard cs50w projects
